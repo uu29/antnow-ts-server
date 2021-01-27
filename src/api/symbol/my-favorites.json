@@ -1,0 +1,13 @@
+[
+  { "symbol": "005930.KS" },
+  { "symbol": "005380.KS" },
+  { "symbol": "051910.KS" },
+  { "symbol": "006400.KS" },
+  { "symbol": "TSLA", "region": "US" },
+  { "symbol": "AAPL", "region": "US" },
+  { "symbol": "NVDA", "region": "US" },
+  { "symbol": "ASML", "region": "US" },
+  { "symbol": "AMZN", "region": "US" },
+  { "symbol": "WMT", "region": "US" },
+  { "symbol": "NKE", "region": "US" }
+]

@@ -6,6 +6,8 @@ import api from "./api";
 const port: number = Number(process.env.PORT) || 3000;
 const app: express.Application = new App().app;
 
+app.use(express.json());
+app.use(express.urlencoded());
 app.use("/api", api);
 
 app.get("/", (request: Request, response: Response, next: NextFunction) => {
