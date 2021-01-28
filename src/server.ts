@@ -4,6 +4,7 @@ import express, { Request, Response, NextFunction } from "express";
 import api from "./api";
 import handleErrors from "./middleware/handleErrors";
 import mongooseConnect from "./db";
+import UserController from "./models/user/UserController";
 
 interface Err extends Error {
   status: number;
@@ -22,6 +23,7 @@ app.get("/", (request: Request, response: Response, next: NextFunction) => {
 });
 
 app.use("/api", api);
+app.use("/users", UserController); // 추가
 
 app.use(handleErrors);
 
